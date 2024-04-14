@@ -1,4 +1,4 @@
-import Login from "../PageObjects/Login.js";
+//import Login from "../PageObjects/Login.js";
 describe('Login, Retrive Min Price Product & Printing the Title & Description of Product', () => {
   beforeEach(() => {
       cy.clearBrowserData(); //Calling custom command to clear browser data
@@ -12,7 +12,7 @@ describe('Login, Retrive Min Price Product & Printing the Title & Description of
       
       //Sorting the product list based on low-high price range
       cy.get('[data-test="product-sort-container"]').select('Price (low to high)');
-
+    
       //Checking whether pricebar of every product is visible
       cy.get('.pricebar').should('be.visible');
 
