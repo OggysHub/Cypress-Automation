@@ -1,9 +1,7 @@
 # Cypress E2E Test Scripts
 
-This project contains Cypress test scripts for the following automated cases:
+This project will guide one to navigate through E2E automation using cypress along with handling many other web elements through cypress.
 
-1. 
-2.
 
 ## Prerequisites Configuration
 
@@ -25,4 +23,4 @@ This project contains Cypress test scripts for the following automated cases:
 - `purchase_flow.cy.js`: Script to add product to cart, then complete the checkhout process.
 - `read_csv.cy.js`: Script to read data from a particular csv file.
 - `session_token.cy.js`: Script to use JWT session token from local storage from login process.
-- `session_token.cy.js`: Script to use database process using clound environment.
+- `sqldb.cy.js`: Script to parse data from database through azure cloud environment.

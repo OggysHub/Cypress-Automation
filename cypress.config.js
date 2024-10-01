@@ -22,6 +22,7 @@ const sqlServer = require('cypress-sql-server'); //Database Plugin information
       //Passing Database Information
       tasks = sqlServer.loadDBPlugin(config.db);
       on('task', tasks);
-    }
+    },
+    specPattern: 'cypress/e2e/*.js'
   }, 
 });
