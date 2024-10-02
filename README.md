@@ -1,6 +1,6 @@
 # Cypress E2E Test Scripts
 
-This project will guide one to navigate through E2E automation using cypress along with handling many other web elements through cypress.
+This project will guide one through E2E automation using Cypress and managing many other web components through Cypress from basic to advanced level.
 
 
 ## Prerequisites Configuration
@@ -12,15 +12,18 @@ This project will guide one to navigate through E2E automation using cypress alo
 - CSV depencensies file installed & set under package.json
 
 ## Usage
-1. Clone this repository & checkout to (`E2E-Automation`) branch.
-2. Install dependencies (`npm install`).
-3. Run Cypress (`npx cypress open`).
-4. Select the desired browser from the Cypress window to run test scripts.
-5. Select the desired test script under the Cypress window.
-
+1. Open the VS code.
+2. Open the terminal from VS code. 
+3. Clone this repository (`git clone`) & checkout to (`E2E-Automation`) branch.
+4. Install all dependencies (`npm install`).
+5. Run Cypress (`npx cypress open`).
+6. Select the desired browser from the (`Cypress browser`) window.
+7. Select the desired test script to run in the browser window.
 
 ## Test Scripts
 - `purchase_flow.cy.js`: Script to add product to cart, then complete the checkhout process.
 - `read_csv.cy.js`: Script to read data from a particular csv file.
-- `session_token.cy.js`: Script to use JWT session token from local storage from login process.
+- `search_add_to_cart.cy.js`: Script to iterating through search result list & add a specific one to cart.
+- `search_count_product.cy.js`: Script to search product & count the total search result product.
+- `session_token.cy.js`: Script to use JWT session token from local storage for the login process.
 - `sqldb.cy.js`: Script to parse data from database through azure cloud environment.
