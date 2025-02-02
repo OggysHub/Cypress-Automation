@@ -12,7 +12,6 @@ describe('JWT Session Token',()=>{
       })
       
       cy.get(".card-body button:last-of-type").eq(1).click(); //selecting a specific product from the list array
-      //cy.get("//button[@class='btn w-10 rounded']").click();
       cy.get("[routerlink*='cart']").click();
       cy.contains("Checkout").click();
       cy.get("[placeholder*='Country']").type("ind")

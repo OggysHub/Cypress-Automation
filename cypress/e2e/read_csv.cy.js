@@ -13,7 +13,7 @@ describe('JWT Session Token',()=>{
       })
 
       cy.get(".card-body b").eq(1).then(function(ele){
-
+        
         productName =  ele.text(); //doesn't promise by default, that's whhy use function
       })
       

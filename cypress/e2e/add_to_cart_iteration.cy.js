@@ -10,7 +10,7 @@ describe('Searching Product & Cathe Results',()=>{
         //Adding a product to cart by iterating through the product list
         cy.get('.products').find('.product').each(($el, index, $list)=>{
 
-            const prodcutText=$el.find('h4.product-name').text()
+            const prodcutText=$el.find('h4.product-name').text() //finding the text of an element
             if(prodcutText.includes('Cashews')){
                cy.wrap($el).find('button').click()
             }

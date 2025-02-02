@@ -21,9 +21,12 @@ This project will guide one through E2E automation using Cypress and managing ma
 7. Select the desired test script to run in the browser window.
 
 ## Test Scripts
+- `add_to_cart_iteration.cy.js`: Script to iterating through search result list & add a specific one to cart.
+- `handle_checkbox.cy.js`: Script to handle both single & multiple checkbox at a time.
+- `handle_dropdown.cy.js`: Script to handle both static & dynamic dropdown data at a time.
+- `order_submission.cy.js`: Script to complete order submission & aliasing a element locator.
 - `purchase_flow.cy.js`: Script to add product to cart, then complete the checkhout process.
 - `read_csv.cy.js`: Script to read data from a particular csv file.
-- `search_add_to_cart.cy.js`: Script to iterating through search result list & add a specific one to cart.
 - `search_count_product.cy.js`: Script to search product & count the total search result product.
 - `session_token.cy.js`: Script to use JWT session token from local storage for the login process.
 - `sqldb.cy.js`: Script to parse data from database through azure cloud environment.
